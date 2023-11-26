@@ -7,6 +7,7 @@ import netflix from '../assets/Screenshot (259).png'
 import ardencie from '../assets/Screenshot (260).png'
 import miniecommerce from "../assets/Screenshot (261).png"
 import foodapp from "../assets/Screenshot (263).png"
+import NetflixGPT from "../assets/Screenshot (264).png"
 
 
 
@@ -27,7 +28,7 @@ const ProjectCard = () => {
             <ProjectInsideCard ImageProject={miniecommerce} ProjectHeading={"Mini E-commerce"} demo={"https://shopping-app-six-flax.vercel.app/"}  gitcode={"https://github.com/vishal895/M.e-commerce"}/>
             <ProjectInsideCard ImageProject={netflix} ProjectHeading={"Netflix clone"} demo={"https://vishal895.github.io/netflix-clone/"}  gitcode={"https://github.com/vishal895/netflix-clone/tree/main"}/>
             <ProjectInsideCard ImageProject={ardencie} ProjectHeading={"ARDENSI clone"} demo={"https://vishal895.github.io/ardensi-landingpage/"}  gitcode={"https://github.com/vishal895/ardensi-landingpage"}/>
-            <ProjectInsideCard ImageProject={ardencie} ProjectHeading={"demo"} demo={"https://vishal895.github.io/ardensi-landingpage/"}  gitcode={"https://github.com/vishal895/ardensi-landingpage"}/>
+            <ProjectInsideCard ImageProject={NetflixGPT} ProjectHeading={"NETFLIX GPT"} demo={""}  gitcode={"https://github.com/vishal895/netflix-gpt"}/>
             {/* {ProjectData.length && ProjectData.map((key,index)=>{
               return(
                 <div className='shadow-md shadow-gray-600 rounded-lg'>
