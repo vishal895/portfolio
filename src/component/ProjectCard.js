@@ -22,13 +22,14 @@ const ProjectCard = () => {
           </p>
           <div className='grid sm:grid-cols-3 grid-cols-1 gap-8  sm:px-2 text-white font-bold text-lg mt-10'>
             <ProjectInsideCard ImageProject={foodapp} ProjectHeading={"Food Delivery App"} demo={"https://food-delivery-app-weld.vercel.app/"}  gitcode={"https://github.com/vishal895/food-delivery-app"}/>
-            <ProjectInsideCard ImageProject={moviepic} ProjectHeading={"Movei Trailer"} demo={"https://vishal895.github.io/movie-trailer/"}  gitcode={"https://github.com/vishal895/movie-trailer"}/>
-            <ProjectInsideCard ImageProject={googlepic} ProjectHeading={"Google clone"} demo={"https://vishal895.github.io/browser-clone/"}  gitcode={"https://github.com/vishal895/browser-clone"}/>
-            <ProjectInsideCard ImageProject={weather} ProjectHeading={"Weather app"} demo={" https://vishal895.github.io/weather-app-react/"}  gitcode={"https://github.com/vishal895/weather-app-react"}/>
+            <ProjectInsideCard ImageProject={moviepic} ProjectHeading={"Movei Trailer"} demo={"https://entertainmenthub.netlify.app/"}  gitcode={"https://github.com/vishal895/movie-trailer"}/>
+            <ProjectInsideCard ImageProject={googlepic} ProjectHeading={"Google clone"} demo={"https://browser-clone.vercel.app/"}  gitcode={"https://github.com/vishal895/browser-clone"}/>
+            <ProjectInsideCard ImageProject={weather} ProjectHeading={"Weather app"} demo={"https://weatherapp-zeta-one.vercel.app/"}  gitcode={"https://github.com/vishal895/weather-app-react"}/>
             <ProjectInsideCard ImageProject={miniecommerce} ProjectHeading={"Mini E-commerce"} demo={"https://shopping-app-six-flax.vercel.app/"}  gitcode={"https://github.com/vishal895/M.e-commerce"}/>
+            <ProjectInsideCard ImageProject={NetflixGPT} ProjectHeading={"NETFLIX GPT"} demo={"https://netflix-gpt-nine-mauve.vercel.app/"}  gitcode={"https://github.com/vishal895/netflix-gpt"}/>
             <ProjectInsideCard ImageProject={netflix} ProjectHeading={"Netflix clone"} demo={"https://vishal895.github.io/netflix-clone/"}  gitcode={"https://github.com/vishal895/netflix-clone/tree/main"}/>
             <ProjectInsideCard ImageProject={ardencie} ProjectHeading={"ARDENSI clone"} demo={"https://vishal895.github.io/ardensi-landingpage/"}  gitcode={"https://github.com/vishal895/ardensi-landingpage"}/>
-            <ProjectInsideCard ImageProject={NetflixGPT} ProjectHeading={"NETFLIX GPT"} demo={""}  gitcode={"https://github.com/vishal895/netflix-gpt"}/>
+            
             {/* {ProjectData.length && ProjectData.map((key,index)=>{
               return(
                 <div className='shadow-md shadow-gray-600 rounded-lg'>

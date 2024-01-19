@@ -15,7 +15,7 @@ const ExperienceCard = () => {
           <h2 className="text-xs sm:text-lg">July 2022 - Nov 2023</h2>
         </div>
         <p>
-          <ul className="p-5 list-disc">
+          <ul className="p-5 list-disc text-white">
             <li>
               Identified web-based user interactions and developed
               highly-responsive user interface components via React concepts.
@@ -48,8 +48,8 @@ const ExperienceCard = () => {
             </li>
           </ul>
         </p>
-        <h2 className="font-bold text-3xl">Project</h2>
-        <ul className="p-5 list-disc text-of">
+        <h2 className="font-bold text-3xl text-white">Project</h2>
+        <ul className="p-5 list-disc text-of text-white">
           <Link to="https://saas-dev.owens.market/"><li>https://saas-dev.owens.market/</li></Link>
           <Link to="https://release-truestars.d1vlqg2aytje11.amplifyapp.com/"><li>https://release-truestars.d1vlqg2aytje11.amplifyapp.com/</li></Link>
           <li>There are many internal projects and dashboards</li>
@@ -62,7 +62,7 @@ const ExperienceCard = () => {
 
           <h2 className="text-xs sm:text-lg">Jan 2022 - Apr 2022</h2>
         </div>
-        <ul className="p-5 list-disc">
+        <ul className="p-5 list-disc text-white">
           <li>Effectively coded software changes and alterations based on specific design specifications.</li>
           <li>Mostly worked on the Frontend Bug fixing.</li>
           <li>Worked on the reusable components using React JS.</li>
