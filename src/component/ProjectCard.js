@@ -27,8 +27,8 @@ const ProjectCard = () => {
             <ProjectInsideCard ImageProject={weather} ProjectHeading={"Weather app"} demo={"https://weatherapp-zeta-one.vercel.app/"}  gitcode={"https://github.com/vishal895/weather-app-react"}/>
             <ProjectInsideCard ImageProject={miniecommerce} ProjectHeading={"Mini E-commerce"} demo={"https://shopping-app-six-flax.vercel.app/"}  gitcode={"https://github.com/vishal895/M.e-commerce"}/>
             <ProjectInsideCard ImageProject={NetflixGPT} ProjectHeading={"NETFLIX GPT"} demo={"https://netflix-gpt-nine-mauve.vercel.app/"}  gitcode={"https://github.com/vishal895/netflix-gpt"}/>
-            <ProjectInsideCard ImageProject={netflix} ProjectHeading={"Netflix clone"} demo={"https://vishal895.github.io/netflix-clone/"}  gitcode={"https://github.com/vishal895/netflix-clone/tree/main"}/>
-            <ProjectInsideCard ImageProject={ardencie} ProjectHeading={"ARDENSI clone"} demo={"https://vishal895.github.io/ardensi-landingpage/"}  gitcode={"https://github.com/vishal895/ardensi-landingpage"}/>
+            {/* <ProjectInsideCard ImageProject={netflix} ProjectHeading={"Netflix clone"} demo={"https://vishal895.github.io/netflix-clone/"}  gitcode={"https://github.com/vishal895/netflix-clone/tree/main"}/>
+            <ProjectInsideCard ImageProject={ardencie} ProjectHeading={"ARDENSI clone"} demo={"https://vishal895.github.io/ardensi-landingpage/"}  gitcode={"https://github.com/vishal895/ardensi-landingpage"}/> */}
             
             {/* {ProjectData.length && ProjectData.map((key,index)=>{
               return(
