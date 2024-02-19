@@ -8,7 +8,7 @@ const IntroCard = () => {
             <div className='content'>
                 <h2 className='sm:text-5xl text-3xl text-white font-bold'>Hi, I am Vishal</h2>
                 <h4 className='sm:text-3xl text-2xl text-white font-medium mt-7'>I am a frontend web developer</h4>
-                <p className='sm:text-2xl text-lg text-white font-normal mt-6 w-11/12'>I have 1+ year experience as a ReactJS developer. I design website, write functional code, integrate api's and much more. I love to keep on exploring latest technologies which aim to create seamless User Experience.</p>
+                <p className='sm:text-2xl text-lg text-white font-normal mt-6 w-11/12'>I have 2+ year experience as a ReactJS developer. I design website, write functional code, integrate api's and much more. I love to keep on exploring latest technologies which aim to create seamless User Experience.</p>
             </div>
             <div className='image rounded-lg'>
                 <img src={image} alt='' className='h-full w-full object-cover'/>
